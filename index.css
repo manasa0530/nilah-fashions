@@ -1,0 +1,873 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-left: 60px;
+    padding-right: 50px;
+    position: sticky;
+    top: 2px;
+
+}
+.list1{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    
+}
+.nv_right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.container1{
+    background-image: url("assets/hero-banner-image-01.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+.navbar-toggler{
+    color: white !important;
+    border: 0px !important;
+}
+.span01{
+    color: white;
+}
+.collection_btn{
+    padding: 15px;
+    width: 18vw;
+    background-color: transparent;
+    border: 0.2px solid rgb(231, 223, 223);
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 400;
+        margin-top: 30px;
+}
+.collection_btn:hover{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+.btn1{
+    color: black;
+    border: 1px solid gray;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+.home{
+    text-align: center;
+    padding-left: 40vw;
+    width: 100%;
+    padding-top: 25vh;
+}
+.heading{
+    font-size: 50px;
+    font-family: "Cormorant Garamond", serif !important;
+    letter-spacing: 7px;
+}
+.h1{
+    letter-spacing: 1px;
+    font-size: 55px;
+}
+.h2{
+    letter-spacing: 1px;
+    font-size: 55px;
+    padding-top: 55px;
+    font-weight: 100 !important;
+}
+.h3{
+    font-size: 45px;
+    letter-spacing: 0.5px;
+}
+.alpha{
+    font-family: serif;
+    letter-spacing: -1px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    padding: 10px;
+}
+.collection,.flex1{
+    background-image: url("assets/carousel-banner.webp");
+    height: 100;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.collection_flex{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.coll{
+    padding: 50px;
+}
+.img1{
+    height: 500px;
+    margin: 40px;
+}
+.para1{
+    color: #c59b81;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.p1{
+    color: gray;
+     font-family: "Cormorant Garamond", serif !important;
+    font-size: 20px;
+}
+.narrate,footer,.margin{
+    background-color: #E2D8CF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.img2{
+    height: 88vh;
+    width: 32vw;
+    margin-top: -120px !important;
+}
+.collection1{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+}
+.c2{
+    padding-bottom: 50px;
+}
+.img3{
+    height: 52vh;
+    margin-bottom: -700px !important;
+}
+.nrt{
+    width: 30%;
+}
+.c1{
+    justify-content: left !important;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: column;
+}
+.card_collection{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card1{
+
+}
+.collection_img1{
+    height: 72vh;
+    width: 29vw;
+}
+.card_para{
+         font-family: "Cormorant Garamond", serif !important;
+         font-size: 28px;
+         
+}
+.content>.card_para{
+    font-family: sans-serif !important;
+    font-style: italic;
+    font-size: 20px;
+    color: gray;
+}
+.reviewer{
+    color: rgb(128, 58, 23);
+    font-family: "Cormorant Garamond", serif !important;
+    font-size: 28px;
+    margin-top: 20px !important;
+
+}
+.price{
+    color: rgb(156, 155, 155);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: sans-serif !important;
+    padding-bottom: 20px;
+
+}
+.btn2{
+    width: 15vw;
+    margin-bottom: 50px;
+}
+.marque{
+    display: flex;
+    align-items: center;
+    
+}
+.markq{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.extra{
+    display: flex;
+    align-items: center;
+}
+p{
+    margin-bottom: 0px !important;
+}
+.daimond{
+    padding: 6px;
+}
+.fashion{
+         font-family: "Cormorant Garamond", serif !important;
+         font-style: italic;
+         font-size: 22px;
+}
+.collection_img2{
+    height: 60vh;
+    width: 29vw;
+    position: relative;
+    
+}
+.dresses{
+    position: absolute;
+    padding-top: 50%;
+    padding-left: 50%;
+}
+.coll_img{
+    width: 80%;
+    height: 100%;
+}
+.right_div{
+    margin: 60px;
+    color: white;
+    padding-top: 20px;  
+    width: 40%;
+}
+.p2{
+    font-size: 20px;
+    color: rgb(213, 204, 204);
+}
+.h4{
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.br_tg{
+    margin: 0px 80px 0px 80px;
+    height: 1px;
+    background-color: black !important;
+
+}
+.ig_img{
+    height: 32vh;
+    width: 16vw;
+}
+.search{
+    background-color: transparent;
+    width: 50%;
+    border: 0px;
+    padding: 5px;
+}
+.p_img{
+    height: 13vh;
+    width: auto;
+}
+.bnr_img{
+    height: 70vh;
+    width: 45vw;
+}
+.review{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+.tst_img{
+    height: 12%;
+    width: 18%;
+}
+.content{
+    width: 50%;
+}
+.footer_div{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.thirs_div>p,.second_div>p,.first_div>p{
+    color: #808080a8;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    letter-spacing: 1px;
+
+}
+.a1{
+    font-size: 25px;
+    color: rgb(80 79 79 / 62%);;
+}
+.second_div>p,.first_div>p,.thirs_div>p{
+    padding: 10px !important;
+}
+.foot_cp{
+    padding-left: 20px;
+    padding-right: 30px;
+    margin: 20px;
+    color: gray;
+    font-size: 16px;
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: orange;
+}
+
+/*.owl-carousel{
+    display: contents;
+    width: 400px;
+  }
+   .hover_prd{
+    height: 250px;
+    width: 300px;
+  }
+  .caro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  } */
+
+  .hover_prd{
+    height: 350px !important;
+    width: 260px !important;
+  }
+  .caro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+  }
+  .owl-carousel{
+    display: contents;
+    width: 100% !important;
+  }
+  .item {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    /* Base image: in flow -> gives height */
+    .item img.hover_prd {
+      display: block;
+      width: 80%;
+      height: auto;
+    }
+
+    /* Hover image overlays the base and fades in smoothly */
+    .item img.prd1 {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;              /* keeps aspect ratio nicely */
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      pointer-events: none;           /* don’t block hover */
+    }
+
+    /* Bottom caption overlay (inside the image) */
+    .item .caption {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 12px 14px;
+      font-size: 26px;
+      font-weight: 700;
+      color: #fff;
+      font-family: serif;
+      text-align: center;
+      /* Subtle readable background that fades in */
+      background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0));
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      pointer-events: none;
+    }
+
+    /* Hover state */
+    .item:hover img.prd1 { opacity: 1; }
+    .item:hover .caption { opacity: 1; }
+
+    .card-hover {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      /* width: 350px; */
+    }
+
+    /* normal_img image */
+    .card-hover img.normal_img {
+      display: block;
+      /* width: 100%;
+      height: 100%; */
+    }
+
+    /* Hover image (fades in) */
+    .card-hover img.hover_img {
+      position: absolute;
+      inset: 0;
+      
+      /* width: 100%;
+      height: 100%; */
+      object-fit: cover;
+      object-position: center;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      pointer-events: none;
+    }
+
+    .card-hover:hover img.hover_img { opacity: 1; }
+
+    /* Button container (centered middle of image) */
+    .icon_div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      gap: 12px;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      z-index: 2;
+    }
+
+    .card-hover:hover .icon_div { opacity: 1; }
+
+    /* Buttons */
+    .icon-btn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 12px;
+      border-radius: 50px;
+      border: none;
+      background: white;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+      color: black;
+    }
+
+    .icon-btn:hover {
+      background: rgb(132, 56, 56); /* hover color */
+      color: #fff;
+    }
+    .image-container {
+      position: relative;
+      overflow: hidden; /* zoom stays inside */
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+      transform-origin: center;
+    }
+    .zoom_one {
+      position: absolute;
+      bottom: 10%;
+      left: 10%; /* align to left */
+      text-align: left;
+      color: white;
+      font-weight: bold;
+      transition: all 0.5s ease;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      /*gap: 8px;  space between texts */
+    }
+
+    .para3 {
+      transition: transform 0.5s ease;
+    }
+
+    /* dssgsjijujdk */
+ .image-container1 {
+      position: relative;
+    }
+    .image-container1 img {
+      width: 50vw;
+      height: 100%;
+    }
+    .flex1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .zoom_one1 {
+      position: absolute;
+      bottom: 8%;
+      left: 5%; /* align to left */
+      color: white;
+    }
+    .para31{
+        font-size: 90px;
+     font-family: "Cormorant Garamond", serif !important;
+     width: 10%;
+     font-weight: bold;
+     line-height: 1;
+    }
+
+    .hover-cont {
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.5s ease;
+      font-size: 14px;
+      font-weight: normal;
+      font-size: 19px !important
+    }
+
+    /* Hover Effects */
+    .image-container:hover img {
+      transform: scale(1.1);
+    }
+
+    .image-container:hover .hover-cont {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .image-container:hover .para3 {
+      transform: translateY(-10px); /* move up when hover */
+    }
+    .h5{
+         letter-spacing: 1px;
+    font-size: 6rem;
+    font-family: serif;
+    }
+    .h6{
+        font-size: 4rem;
+    font-family: serif;
+    width: 500px;
+    }
+    p{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .collection_btn1{
+    padding: 12px;
+    width: 14vw;
+    color: white;
+    letter-spacing: 8px;
+    font-weight: 400;
+    border: 0px;
+    background-color: rgb(137, 82, 45);
+}
+.collection_btn1:hover{
+    background-color: rgb(176, 116, 76);
+    font-weight: 500;
+}
+.para4{
+    color: rgb(213, 209, 209);
+     font-family: "Cormorant Garamond", serif !important;
+    font-size: 35px;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.flex_div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-wrap: wrap;
+}
+.ig-im{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+}
+.ig-div1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 10px;
+    text-align: center;
+}
+/* media qurey */
+@media (max-width:768px){
+
+    .container1{
+        height: 85vh;
+        width: auto;
+    }
+    .nv_center{
+        display: none;
+    }
+    .home{
+    width: 100%;
+    padding-left: 0px;
+    margin: auto;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .collection_btn{
+        width: auto;
+    }
+    .b1{
+        width: 100%;
+    }
+    .coll{
+        padding: 20px;
+    }
+    .collection{
+    height: 73vh;
+}
+.flex1{
+    height: 100%;
+}
+.h1{
+    font-size: 30px;
+}
+    .img1{
+        margin: 0px;
+        height: 100%;
+        width: 90%;
+    }
+    .collection_flex{
+        gap: 10px;
+    flex-wrap: wrap;
+    }
+    .img2{
+    height: auto;
+    width: 98%;
+    margin-top: 0px !important;
+}
+.c3{
+    text-align: center;
+}
+.nrt {
+    width: auto;
+    gap: 20px;
+    padding: 10px;
+}
+.img3 {
+    margin-bottom: 0px !important;
+        width: 84%;
+        height: auto;
+        padding-left: 100px;
+}
+.must{
+    font-size: 35px !important;
+    text-align: left !important;
+}
+.collection1{
+    justify-content: center;
+    padding: 10px;
+}
+.narrate{
+    padding-top: 10px;
+}
+.c2{
+    gap: 20px;
+}
+.img{
+    text-align: right;
+}
+.p_img {
+    height: auto;
+    width: 23vw;
+}
+.pb-5{
+    padding-bottom: 10px !important;
+    text-align: left !important;
+}
+.collection_img1 {
+    height: auto;
+    width: 100%;
+}
+.c1{
+    gap: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.collection_img2{
+    width: auto;
+    height: 100%;
+}
+.collec_img{
+    text-align: center;
+}
+.flex1{
+    flex-wrap: wrap;
+        justify-content: center;
+}
+.coll_img{
+    height: 100% !important;
+    width: 100% !important;
+}
+.para31{
+    font-size: 55px;
+}
+.right_div {
+    margin: 25px;
+    width: 82%;
+}
+.tst_img{
+    width: auto;
+}
+.review{
+    flex-wrap: wrap;
+}
+.bnr_img {
+    width: auto;
+}
+.collection_btn1{
+    width: fit-content;
+}
+.ig1{
+    display: none;
+}
+.content{
+    width: auto;
+}
+.flex_div{
+
+}
+.h4,.reviewer{
+    text-align: center;
+    font-size: 25px;
+}
+.footer_div {
+    gap: 18px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h6>.alpha{
+    padding-bottom: 10px;
+}
+.foot_cp{
+    justify-content: center !important;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .collection_flex{
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0px;
+    }
+    .collection_btn{
+        width: auto;
+    
+    }
+    .collection_img1 {
+    height: auto;
+    width: 100%;
+}
+.img_fashions{
+    width: 100%;
+    height: 100%;
+}
+.card_collection{
+    display: block;
+    width: auto;
+    height: auto;
+}
+.card1{
+    margin: 20px;
+}
+.c1{
+    flex-wrap: nowrap;
+}
+.image-container1 img {
+    width: 100%;
+    height: 100%;
+}
+.right_div {
+    width: 92%;
+}
+.bnr_img{
+    width: auto;
+    height: auto;
+}
+/*  */
+
+.collection_img2{
+    width: auto;
+    height: 100%;
+}
+.collec_img{
+    text-align: center;
+}
+.flex1{
+    flex-wrap: wrap;
+        justify-content: center;
+}
+/*  */
+    .img2{
+        height: auto;
+        width: 100%;
+    margin-top: 0px !important;
+    }
+    .nrt {
+    width: auto;
+    gap: 20px;
+    padding: 10px;
+}
+.img3 {
+    margin-bottom: 0px !important;
+        height: auto;
+        padding-left: 300px;
+}
+.narrate{
+    padding-top: 10px;
+}
+.c2{
+    gap: 20px;
+}
+    .p_img.ig1{
+        display: none;
+    }
+    
+ }
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    .collection_flex{
+        gap: 0px;
+    }
+    .c1 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.collection1 {
+    padding: 27px;
+}
+.collection_img1 {
+    height: auto;
+    width: 27vw;
+}
+.hover_prd {
+    height: 328px !important;
+    width: 222px !important;
+}
+}
