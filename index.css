@@ -634,7 +634,8 @@ a:hover{
         padding: 20px;
     }
     .collection{
-    height: 73vh;
+    /* height: 73vh; */
+    height: auto;
 }
 .flex1{
     height: 100%;
@@ -728,7 +729,7 @@ a:hover{
     width: 82%;
 }
 .tst_img{
-    width: auto;
+    width: -webkit-fill-available;
 }
 .review{
     flex-wrap: wrap;
